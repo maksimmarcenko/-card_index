@@ -1,0 +1,5 @@
+  try:
+            card_index = int(user_input) - 1
+            selected_card = player_hand[card_index]
+            table.append(selected_card)
+            player_hand.pop(card_index)
